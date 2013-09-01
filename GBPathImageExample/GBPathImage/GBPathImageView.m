@@ -79,7 +79,7 @@
     rectImage.size.height -= _pathWidth*2.0;
     
     
-    UIGraphicsBeginImageContext(rect.size);
+    UIGraphicsBeginImageContextWithOptions(rect.size,0,0);
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     
     switch (_pathType) {
