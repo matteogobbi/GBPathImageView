@@ -7,7 +7,7 @@ With this class, you can get images in the circles or squares with the border.
 
 ## Example Usage
 
-This is a easy example to init the control from code:
+This is an easy example to init the control from code:
 
 ``` objective-c
     GBPathImageView *squareImage = [[GBPathImageView alloc] initWithFrame:CGRectMake(26, 117, 130, 130) image:[UIImage imageNamed:@"me.png"] pathType:GBPathImageViewTypeSquare pathColor:[UIColor orangeColor] borderColor:[UIColor redColor] pathWidth:6.0];
